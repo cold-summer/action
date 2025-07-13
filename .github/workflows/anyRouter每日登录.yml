@@ -1,12 +1,12 @@
 name: Automated API Tests
 
 on: 
-  push:
-  pull_request:
+  # push:
+  # pull_request:
   schedule:
     # 每天 02:00 UTC 执行一次；如需其他时间请改 cron
     - cron: '0 8 * * *'
-    - cron: '35 12 * * *'
+    - cron: '40 4 * * *'
 
 
 jobs:
